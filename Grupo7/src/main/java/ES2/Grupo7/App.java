@@ -11,6 +11,10 @@ public class App{
 		return res;
 	}
 	
+	public boolean compare (String g, String w) {
+		return g.contains(w);
+	}
+	
     public static void main( String[] args ){
     	
     	int base = 2;
