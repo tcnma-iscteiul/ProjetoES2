@@ -25,7 +25,6 @@ class Testes {
 
 	@Test
 	void test() {
-		
 		assertEquals(4, c.potencia(base, expoente));
 		assertFalse(c.compare(j, w));
 //		fail("Not yet implemented");
