@@ -6,7 +6,6 @@ package ES2.Grupo7;
  */
 public class App{
 	
-	
 	/**
 	 * função que, ao ser inserido 2 inteiros, devolve a potência calculada conforme a base e o expoente
 	 * @param base
@@ -23,10 +22,11 @@ public class App{
 	 * função que compara dois valores do tipo String e pode devolver uma entre 2 hipóteses: 
 	 * true = as Strings são iguais
 	 * false = as Strings são diferentes
-	 * @param String g
-	 * @param String w
+	 * @param g
+	 * @param w
 	 * @return um booleano
 	 *  **/
+	
 	public boolean compare (String g, String w) {
 		return g.contains(w);
 	}
